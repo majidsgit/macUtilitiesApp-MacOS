@@ -59,6 +59,10 @@ extension WindowController {
             self.fontSelector.animator().alphaValue = isLock ? 0.0 : 1.0
             self.timeSegmentedButton.animator().alphaValue = isLock ? 0.0 : 1.0
             self.dateSegmentedButton.animator().alphaValue = isLock ? 0.0 : 1.0
+        } completionHandler: { [weak self] in
+            self?.fontSelector.isHidden = isLock
+            self?.timeSegmentedButton.isHidden = isLock
+            self?.dateSegmentedButton.isHidden = isLock
         }
     }
     
