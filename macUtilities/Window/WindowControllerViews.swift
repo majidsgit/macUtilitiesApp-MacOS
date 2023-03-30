@@ -67,7 +67,7 @@ extension WindowController {
         label.isSelectable = false
         label.isBordered = false
         label.backgroundColor = .clear
-        label.font = NSFont.systemFont(ofSize: 18, weight: .regular)
+        label.font = NSFont.poppinsSemiBold
         label.textColor = NSColor.textColor
         label.alphaValue = 0.5
         
@@ -89,7 +89,7 @@ extension WindowController {
         label.isSelectable = false
         label.isBordered = false
         label.backgroundColor = .clear
-        label.font = NSFont.systemFont(ofSize: 18, weight: .regular)
+        label.font = NSFont.poppinsThin
         label.textColor = NSColor.textColor
         label.alphaValue = 0.6
         
@@ -108,7 +108,8 @@ extension WindowController {
         label.isBordered = false
         label.backgroundColor = .clear
 //        label.font = NSFont.systemFont(ofSize: 28, weight: .thin)
-        label.font = NSFont.systemFont(ofSize: 18, weight: .regular)
+//        label.font = NSFont.systemFont(ofSize: 18, weight: .regular)
+        label.font = NSFont.poppinsSemiBold
         label.textColor = NSColor.textColor
         label.alphaValue = 0.8
         label.alignment = .center

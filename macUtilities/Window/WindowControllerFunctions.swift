@@ -10,7 +10,7 @@ import Cocoa
 extension WindowController {
     
     @objc func onFontChanged() {
-        selectedFontName = fontSelector.selectedItem?.title ?? ""
+//        selectedFontName = fontSelector.selectedItem?.title ?? ""
         // update respected labels' font
         hourLabel.font = NSFont(name: selectedFontName, size: 68)
         firstDotLabel.font = NSFont(name: selectedFontName, size: 58)
@@ -56,11 +56,11 @@ extension WindowController {
         mainWindow.isMovable = lockSegmentedButton.selectedSegment != 0
         NSAnimationContext.runAnimationGroup { context in
             context.duration = 1.0
-            self.fontSelector.animator().alphaValue = isLock ? 0.0 : 1.0
+//            self.fontSelector.animator().alphaValue = isLock ? 0.0 : 1.0
             self.timeSegmentedButton.animator().alphaValue = isLock ? 0.0 : 1.0
             self.dateSegmentedButton.animator().alphaValue = isLock ? 0.0 : 1.0
         } completionHandler: { [weak self] in
-            self?.fontSelector.isHidden = isLock
+//            self?.fontSelector.isHidden = isLock
             self?.timeSegmentedButton.isHidden = isLock
             self?.dateSegmentedButton.isHidden = isLock
         }

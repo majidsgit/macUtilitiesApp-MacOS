@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C420C6529D646B000E8E95F /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C420C5329D646B000E8E95F /* Poppins-ExtraLight.ttf */; };
+		1C420C6629D646B000E8E95F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C420C5429D646B000E8E95F /* Poppins-Medium.ttf */; };
+		1C420C6F29D646B000E8E95F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C420C5D29D646B000E8E95F /* Poppins-SemiBold.ttf */; };
+		1C420C7129D646B000E8E95F /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C420C5F29D646B000E8E95F /* Poppins-Thin.ttf */; };
+		1C420C7629D6489E00E8E95F /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C420C7529D6489E00E8E95F /* FontExtension.swift */; };
+		1C420C7829D6498A00E8E95F /* Sketch 3D.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C420C7729D6498A00E8E95F /* Sketch 3D.otf */; };
+		1C420C7A29D649A000E8E95F /* Sketch College.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C420C7929D649A000E8E95F /* Sketch College.ttf */; };
+		1C420C7C29D649AF00E8E95F /* Fine College.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C420C7B29D649AF00E8E95F /* Fine College.ttf */; };
 		1C4B298F29D43268007CB85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B298E29D43268007CB85B /* AppDelegate.swift */; };
 		1C4B299129D43268007CB85B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B299029D43268007CB85B /* ViewController.swift */; };
 		1C4B299329D43269007CB85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4B299229D43269007CB85B /* Assets.xcassets */; };
@@ -17,13 +25,18 @@
 		1C4D6F0B29D4EA5E0059523D /* String+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D6F0A29D4EA5E0059523D /* String+Int.swift */; };
 		1C74E75D29D4A531009A45B1 /* WindowControllerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74E75C29D4A531009A45B1 /* WindowControllerViews.swift */; };
 		1C74E75F29D4A582009A45B1 /* WindowControllerFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74E75E29D4A582009A45B1 /* WindowControllerFunctions.swift */; };
-		1C74E76429D4BA27009A45B1 /* Fine College.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C74E76329D4BA27009A45B1 /* Fine College.ttf */; };
-		1C74E76629D4BC7D009A45B1 /* Sketch 3D.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C74E76529D4BC7D009A45B1 /* Sketch 3D.otf */; };
-		1C74E76829D4BD7D009A45B1 /* Sketch College.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C74E76729D4BD7D009A45B1 /* Sketch College.ttf */; };
 		1C74E76C29D4BEA6009A45B1 /* varsity_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C74E76B29D4BEA6009A45B1 /* varsity_regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C420C5329D646B000E8E95F /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		1C420C5429D646B000E8E95F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1C420C5D29D646B000E8E95F /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1C420C5F29D646B000E8E95F /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		1C420C7529D6489E00E8E95F /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		1C420C7729D6498A00E8E95F /* Sketch 3D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sketch 3D.otf"; sourceTree = "<group>"; };
+		1C420C7929D649A000E8E95F /* Sketch College.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sketch College.ttf"; sourceTree = "<group>"; };
+		1C420C7B29D649AF00E8E95F /* Fine College.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fine College.ttf"; sourceTree = "<group>"; };
 		1C4B298B29D43268007CB85B /* macUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4B298E29D43268007CB85B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C4B299029D43268007CB85B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,9 +50,6 @@
 		1C74E75C29D4A531009A45B1 /* WindowControllerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowControllerViews.swift; sourceTree = "<group>"; };
 		1C74E75E29D4A582009A45B1 /* WindowControllerFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowControllerFunctions.swift; sourceTree = "<group>"; };
 		1C74E76229D4B5E2009A45B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C74E76329D4BA27009A45B1 /* Fine College.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fine College.ttf"; sourceTree = "<group>"; };
-		1C74E76529D4BC7D009A45B1 /* Sketch 3D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sketch 3D.otf"; sourceTree = "<group>"; };
-		1C74E76729D4BD7D009A45B1 /* Sketch College.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sketch College.ttf"; sourceTree = "<group>"; };
 		1C74E76B29D4BEA6009A45B1 /* varsity_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = varsity_regular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +101,7 @@
 			children = (
 				1C4B299F29D445A6007CB85B /* DateExtension.swift */,
 				1C4D6F0A29D4EA5E0059523D /* String+Int.swift */,
+				1C420C7529D6489E00E8E95F /* FontExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -125,10 +136,14 @@
 		1C4D6F1029D4ECC30059523D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				1C74E76329D4BA27009A45B1 /* Fine College.ttf */,
-				1C74E76529D4BC7D009A45B1 /* Sketch 3D.otf */,
-				1C74E76729D4BD7D009A45B1 /* Sketch College.ttf */,
+				1C420C5329D646B000E8E95F /* Poppins-ExtraLight.ttf */,
+				1C420C5429D646B000E8E95F /* Poppins-Medium.ttf */,
+				1C420C5D29D646B000E8E95F /* Poppins-SemiBold.ttf */,
+				1C420C5F29D646B000E8E95F /* Poppins-Thin.ttf */,
 				1C74E76B29D4BEA6009A45B1 /* varsity_regular.ttf */,
+				1C420C7729D6498A00E8E95F /* Sketch 3D.otf */,
+				1C420C7929D649A000E8E95F /* Sketch College.ttf */,
+				1C420C7B29D649AF00E8E95F /* Fine College.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -191,12 +206,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C420C6529D646B000E8E95F /* Poppins-ExtraLight.ttf in Resources */,
+				1C420C7C29D649AF00E8E95F /* Fine College.ttf in Resources */,
+				1C420C6629D646B000E8E95F /* Poppins-Medium.ttf in Resources */,
+				1C420C7129D646B000E8E95F /* Poppins-Thin.ttf in Resources */,
+				1C420C7A29D649A000E8E95F /* Sketch College.ttf in Resources */,
 				1C4B299329D43269007CB85B /* Assets.xcassets in Resources */,
-				1C74E76629D4BC7D009A45B1 /* Sketch 3D.otf in Resources */,
+				1C420C6F29D646B000E8E95F /* Poppins-SemiBold.ttf in Resources */,
+				1C420C7829D6498A00E8E95F /* Sketch 3D.otf in Resources */,
 				1C74E76C29D4BEA6009A45B1 /* varsity_regular.ttf in Resources */,
 				1C4B299629D43269007CB85B /* Main.storyboard in Resources */,
-				1C74E76429D4BA27009A45B1 /* Fine College.ttf in Resources */,
-				1C74E76829D4BD7D009A45B1 /* Sketch College.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +232,7 @@
 				1C4B299E29D43471007CB85B /* WindowController.swift in Sources */,
 				1C74E75D29D4A531009A45B1 /* WindowControllerViews.swift in Sources */,
 				1C4B298F29D43268007CB85B /* AppDelegate.swift in Sources */,
+				1C420C7629D6489E00E8E95F /* FontExtension.swift in Sources */,
 				1C4D6F0929D4E71C0059523D /* JSONData.swift in Sources */,
 				1C74E75F29D4A582009A45B1 /* WindowControllerFunctions.swift in Sources */,
 			);
@@ -354,7 +374,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 6526WFULUB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -386,7 +406,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 6526WFULUB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;

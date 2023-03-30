@@ -12,11 +12,11 @@ class WindowController: NSWindowController {
     @IBOutlet weak var mainWindow: NSWindow!
     
     var selectedFontName = "Varsity"
-    var fontNames = ["FineCollege", "Sketch3D", "SketchCollege", "Varsity"]
+    var fontNames = ["Varsity"]
     
     var mainView: NSVisualEffectView?
     
-    var fontSelector = NSPopUpButton(frame: .zero)
+//    var fontSelector = NSPopUpButton(frame: .zero)
     
     var titleLabel = NSTextField(frame: .zero)
     var lockSegmentedButton = NSSegmentedControl(frame: .zero)
@@ -81,7 +81,7 @@ class WindowController: NSWindowController {
             context.duration = 1.0
             self.lockSegmentedButton.animator().alphaValue = 1.0
             if self.lockSegmentedButton.selectedSegment != 0 {
-                self.fontSelector.animator().alphaValue = 1.0
+//                self.fontSelector.animator().alphaValue = 1.0
                 self.timeSegmentedButton.animator().alphaValue = 1.0
                 self.dateSegmentedButton.animator().alphaValue = 1.0
             }
@@ -95,7 +95,7 @@ class WindowController: NSWindowController {
             context.duration = 1.0
             self.lockSegmentedButton.animator().alphaValue = 0.0
             if self.lockSegmentedButton.selectedSegment != 0 {
-                self.fontSelector.animator().alphaValue = 0.0
+//                self.fontSelector.animator().alphaValue = 0.0
                 self.timeSegmentedButton.animator().alphaValue = 0.0
                 self.dateSegmentedButton.animator().alphaValue = 0.0
             }
@@ -106,9 +106,9 @@ class WindowController: NSWindowController {
     func setupButtons() {
         guard let mainView else { return }
         
-        fontSelector = createFontSelector()
-        fontSelector.action = #selector(onFontChanged)
-        selectedFontName = fontNames.first!
+//        fontSelector = createFontSelector()
+//        fontSelector.action = #selector(onFontChanged)
+//        selectedFontName = fontNames.first!
         
         lockSegmentedButton = createLockSegmentedButton()
         lockSegmentedButton.action = #selector(onLockViewStateDidChange)
@@ -121,14 +121,14 @@ class WindowController: NSWindowController {
         dateSegmentedButton = createDateFormatButton()
         dateSegmentedButton.action = #selector(onDateFormatDidChange)
         
-        mainView.addSubview(fontSelector)
+//        mainView.addSubview(fontSelector)
         mainView.addSubview(lockSegmentedButton)
         mainView.addSubview(timeSegmentedButton)
         mainView.addSubview(dateSegmentedButton)
         
         NSLayoutConstraint.activate([
-            fontSelector.leadingAnchor.constraint(equalTo: mainView.leadingAnchor, constant: 20),
-            fontSelector.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor),
+//            fontSelector.leadingAnchor.constraint(equalTo: mainView.leadingAnchor, constant: 20),
+//            fontSelector.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor),
             
             lockSegmentedButton.leadingAnchor.constraint(equalTo: mainView.leadingAnchor, constant: 20),
             lockSegmentedButton.bottomAnchor.constraint(equalTo: mainView.bottomAnchor, constant: -20),
@@ -196,7 +196,7 @@ class WindowController: NSWindowController {
             stack.centerXAnchor.constraint(equalTo: mainView.centerXAnchor),
             stack.centerYAnchor.constraint(equalTo: mainView.centerYAnchor),
             ampmLabel.centerYAnchor.constraint(equalTo: stack.centerYAnchor),
-            ampmLabel.leadingAnchor.constraint(equalTo: stack.trailingAnchor, constant: 4)
+            ampmLabel.leadingAnchor.constraint(equalTo: stack.trailingAnchor, constant: 0)
         ])
     }
     
