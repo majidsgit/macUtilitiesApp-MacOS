@@ -9,18 +9,6 @@ import Cocoa
 
 extension WindowController {
     
-    func createFontSelector() -> NSPopUpButton {
-        let button = NSPopUpButton(frame: .zero)
-        
-        button.bezelColor = .clear
-        button.contentTintColor = .clear
-        
-        button.addItems(withTitles: fontNames)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        
-        return button
-    }
-    
     func createTimeLabel() -> NSTextField {
         let label = NSTextField(frame: .zero)
         
